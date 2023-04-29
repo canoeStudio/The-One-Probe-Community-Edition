@@ -156,9 +156,9 @@ public class Config {
         showBotaniaprogress = cfg.getBoolean("showBotaniaprogress", CATEGORY_BOTANIA, compactEqualStacks, I18n.format("top.config.showBotaniaprogress"));
         testinprogress = cfg.getBoolean("testinprogress", CATEGORY_BOTANIA, compactEqualStacks, I18n.format("top.config.testinprogress"));
 
-        Botaniatop = cfg.getBoolean("BotaniaTop", CATEGORY_BOTANIA, compactEqualStacks, "是否开启植物魔法的top显示");
-        showBotaniaprogress = cfg.getBoolean("ShowBotaniaPprogress", CATEGORY_BOTANIA, compactEqualStacks, "决定显示植物魔法魔力的魔力条是否显示");
-        testinprogress = cfg.getBoolean("TestInProgress", CATEGORY_BOTANIA, compactEqualStacks, "决定显示魔力值是显示在魔力条中还是魔力条下面(若showBotaniaprogress为false，则本选项不生效)");
+        Botaniatop = cfg.getBoolean("BotaniaTop", CATEGORY_BOTANIA, compactEqualStacks, "Whether to turn on Botania's top display");
+        showBotaniaprogress = cfg.getBoolean("ShowBotaniaPprogress", CATEGORY_BOTANIA, compactEqualStacks, "Determines whether the magic bar showing Botania's magic power is displayed");
+        testinprogress = cfg.getBoolean("TestInProgress", CATEGORY_BOTANIA, compactEqualStacks, "Decide whether to display the magic value in the magic bar or below it (if showBotaniaprogress is false, this option will not take effect)");
 
 
 
